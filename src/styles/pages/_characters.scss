@@ -1,0 +1,35 @@
+.character {
+  width: 100vw;
+  min-height: 100vh;
+  // height: 100vh;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   flex-direction: column;
+  color: white;
+  background-image: linear-gradient(
+    to bottom,
+    $pri 30%,
+    $pri 30%,
+    $sec 30%,
+    $sec 100%
+  );
+  @media (min-width: 300px) {
+    background-image: linear-gradient(
+      to bottom,
+      $pri 50%,
+      $pri 50%,
+      $sec 50%,
+      $sec 100%
+    );
+  }
+  @media (min-width: 700px) {
+    background-image: linear-gradient(
+      to bottom,
+      $pri 30%,
+      $pri 30%,
+      $sec 30%,
+      $sec 100%
+    );
+  }
+}

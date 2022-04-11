@@ -1,0 +1,23 @@
+.ncard {
+  width: 100%;
+  padding: 0 2rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  background-color: $sec;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
+  &__name {
+  }
+  &__btn {
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    background-color: $pri;
+    place-items: center;
+    border-radius: 5px;
+  }
+}
