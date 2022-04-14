@@ -16,7 +16,7 @@ export const Card = ({ data }) => {
                         {sdata}
                     </p>
                 })}
-
+                <p className='card__content--appear'>Appears in <span>season:</span></p>
                 <div className='card__content--season'>
                     {data.appearance.map((sdata, index) => {
                         return <span key={index}>{sdata}</span>

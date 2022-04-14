@@ -21,7 +21,7 @@ function useFetch(url) {
             .catch(err => {
                 setIsError(true);
                 setLoading(false)
-                setError('An error occurred. IDK where ..go find yourself cause u wrote the code');
+                setError('Network error');
             })
         return () => {
 
